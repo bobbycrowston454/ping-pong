@@ -36,6 +36,8 @@ $(function(){
     if(numberInput <= 0){
       alert("please enter a number greater than 0");
     }
+    $("#results").children().remove();
+    $("#results").text(numberInput)
     $("#results").empty();
     $("#results").prepend("<li>" + countTo(numberInput) + "</li>");
   });

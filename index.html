@@ -10,24 +10,34 @@
   </head>
   <body>
     <div class="container">
+      <div class="navbar navbar-inverse">
+        <div class=topbar>
+          <ul class="nav navbar-nav">
+            <li><em>PING</em></li>
+            <li><b>PONG</b></li>
+            <li><em>PING-</em><b>PONG</p></li>
+          </ul>
+        </div>
+      </div>
       <div class="jumbotron">
         <h1>Ping-Pong</h1>
         <h4>How good are you?</h4>
       </div>
       <h5>but wait! There are some rules</h5>
-      <ul>
+      <ul class="rules">
         <li>Any number divisible by 3 will return 'Ping'!</li>
         <li>Any number divisible by 5 will return 'Pong'!</li>
         <li>And any number divisible by 15 will return 'Ping-Pong'!</li>
       </ul>
-      <form>
-      <label for="numInput">Input your number:</label>
-      <input type="text" name="numInput" placeholder="Input Here" id="numInput">
-      <button type="submit" name="button" class= "btn btn-primary" id="submitbtn">Submit</button>
+      <form id="forms">
+        <label for="numInput">Input your number:</label>
+        <input type="text" name="numInput" placeholder="Input Here" id="numInput">
+        <button type="submit" name="button" class= "btn btn-primary" id="submitbtn">Submit</button>
       </form>
       <ul id="results">
 
       </ul>
+      <img src="http://3.bp.blogspot.com/-SG-bg_FHhOc/UTiNrgaDImI/AAAAAAAAAQg/HIBKGgHEgpw/s1600/Ping+pong.jpg" alt="ping pong picture" />
     </div>
   </body>
 </html>

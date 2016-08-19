@@ -1,0 +1,62 @@
+.jumbotron{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 15px;
+  color: #52F2C5;
+  background-color: #85989E;
+}
+
+.topbar{
+  padding: 10px;
+  color: #52F2C5;
+  background-color: #2E3C66;
+}
+
+.topbar li{
+  padding-left: 10px;
+
+}
+body{
+  background-image: url(http://theartmad.com/wp-content/uploads/2015/09/Best-Background-Pictures-For-Facebook-4.jpg);
+  color: white;
+}
+
+#numInput {
+  color: black;
+}
+
+.rules li{
+  border: solid;
+  border-width: 2px,3px,3px,2px;
+  border-radius: 6px;
+  padding: 5px;
+  max-width: 350px;
+  background-color: black;
+}
+
+#forms{
+  border: solid;
+  border-width: 1px,3px,3px,1px;
+  border-radius: 6px;
+  padding: 5px;
+  max-width: 900px;
+  background-color: black;
+}
+
+#results ul li {
+  max-width: 900;
+}
+
+#submitbtn{
+  background-color: #85989E;
+  color: #52F2C5;
+
+}
+
+img{
+  float: right;
+  margin-top: 25px;
+  border: solid;
+  border-width: 1px,3px,3px,1px;
+  border-radius: 10px;
+}
