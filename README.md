@@ -12,11 +12,11 @@ _This site will take numbers divisible by 3, 5 and 15 and return them with eithe
 
 * _Open terminal or a similar app on your computer_
 * _change directory to Desktop_
-* _copy GITHUB LINK_
+* _copy https://github.com/bobbycrowston454/ping-pong_
 * _use git clone and paste that link after it to clone the repository_
 * _open the folder it provides_
 * _open the HTML folder inside_
-* _link for gh-pages GH-PAGES LINK_
+* _link for gh-pages https://bobbycrowston454.github.io/ping-pong/_
 
 ### Behavior Driven Development
 * Take a number Input and return true.
