@@ -4,6 +4,8 @@
   margin-top: 15px;
   color: #52F2C5;
   background-color: #85989E;
+  font-family: cursive;
+  text-align: center;
 }
 
 .topbar{
@@ -14,11 +16,13 @@
 
 .topbar li{
   padding-left: 10px;
+  float: left;
 
 }
 body{
   background-image: url(http://theartmad.com/wp-content/uploads/2015/09/Best-Background-Pictures-For-Facebook-4.jpg);
   color: white;
+  font-family: serif;
 }
 
 #numInput {
