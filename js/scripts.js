@@ -1,44 +1,28 @@
 //back end
-var countBy;
-var i = 0;
+var returns="";
+var word= [];
 
-function countTo(number) {
-    var arr = [];
-    for (var i = 1; i<=number; i++) {
-        arr.push(i.toString());
+function countTo(numbers) {
+  word = [];
+    for (var j = 1; j <= numbers; j++){
+      if(j % 15 === 0){
+       word.push("ping-pong");
+       word.splice(j+2);
+      }
+      if((j % 3 === 0) && (j % 15 !== 0)){
+        word.push("ping");
+        word.splice(j, j);
+      }
+      if((j % 5 === 0) && (j % 15 !== 0)){
+        word.push("pong");
+        word.splice(j+2);
+
+      } else
+      word.push(j);
+      word.splice(j);
     }
-    return arr.toString();
-}
-
-var customWords = function(customWord){
-  var counting= [];
-  for(var i = 1; i <= customWord; i++){
-    if(( customWord % 15 === 0) || ( customWord % 5 === 0) ||( customWord % 3 === 0)){
-      return true;
-    } else {
-      return false;
+    return word;
     }
-  }
-  //
-  // if( customWord % 15 === 0){
-  //   customWord = "ping-pong";
-  // }
-  // if( customWord % 3 === 0){
-  //   customWord = "ping";
-  // }
-  // if( customWord % 5 === 0){
-  //   customWords = "pong";
-  // }
-  // return customWords;
-}
-
-var finalNumbers = function(finalWord){
-  var result;
-  result = customWords(customWord);
-  // result = counters(result);
-  return result;
-}
-
 
 
 //user interface
@@ -52,7 +36,7 @@ $(function(){
     if(numberInput <= 0){
       alert("please enter a number greater than 0");
     }
-
-    $("#results").append("<li>" + countTo(numberInput) + "</li>");
+    $("#results").empty();
+    $("#results").prepend("<li>" + countTo(numberInput) + "</li>");
   });
 });
