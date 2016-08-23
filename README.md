@@ -19,24 +19,21 @@ _This site will take numbers divisible by 3, 5 and 15 and return them with eithe
 * _link for gh-pages https://bobbycrowston454.github.io/ping-pong/_
 
 ### Behavior Driven Development
-* Take a number Input and return true.
+* Take a number Input and count to it.
+* **_Example Input: 2_**
+* **_Example Output: 1,2_**
+* Take a multiple of 3 and return 'ping'.
+* **_Example Input: 3_**
+* **_Example Output: 1,2,pong_**
+* Take a mulitple of 5 and return 'pong'.
 * **_Example Input: 5_**
-* **_Example Output: True_**
-* Take a word Input and return false.
+* **_Example Output: 1,2,ping,4,pong_**
+* Take a number divisible by 15 and return 'ping-pong'.
+* **_Example Input: 15_**
+* **_Example Output: 1,2,ping,4,5,pong,ping,7,8,ping,pong,11,ping,13,14,ping-pong_**
+* * Take a word and return an alert.
 * **_Example Input: hello_**
-* **_Example Output: False_**
-* Take a number Input and make that the max for the counter.
-* **_Example Input: 5_**
-* **_Example Output: 1,2,3,4,5_**
-* Take a number divisible by 3 and return 'ping'.
-* **_Example Input: 6_**
-* **_Example Output: ping_**
-* * Take a number divisible by 5 and return 'pong'.
-* **_Example Input: 10_**
-* **_Example Output: pong_**
-* * Take a number divisible by 15 and return 'ping-pong'.
-* **_Example Input: 30_**
-* **_Example Output: ping-pong_**
+* **_Example Output: Please enter a number_**
 
 ## Contact Details
 
