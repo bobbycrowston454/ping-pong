@@ -7,7 +7,6 @@ function countTo(numbers) {
     for (var j = 1; j <= numbers; j++){
       if(j % 15 === 0){
        word.push("ping-pong");
-       word.splice(j+2);
       }
       if((j % 3 === 0) && (j % 15 !== 0)){
         word.push("ping");
@@ -15,7 +14,6 @@ function countTo(numbers) {
       }
       if((j % 5 === 0) && (j % 15 !== 0)){
         word.push("pong");
-        word.splice(j+2);
 
       } else
       word.push(j);
